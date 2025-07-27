@@ -1,3 +1,15 @@
+.imagen-jose-antonio {
+  display: block;
+  margin: 30px auto 10px auto;
+  max-width: 120px;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(255,111,145,0.2);
+  border: 3px solid #ff6f91;
+  transition: transform 0.3s;
+}
+.imagen-jose-antonio:hover {
+  transform: scale(1.08) rotate(-2deg);
+}
 body {
   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
   min-height: 100vh;
